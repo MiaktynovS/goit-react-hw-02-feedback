@@ -4,11 +4,11 @@ import s from './Statistics.module.css'
 export const Statistics = ({ good, neutral, bad, total, positivePercentag }) => {
     return(
         <ul className={s.list}>
-            <li>good:{good}</li>
-            <li>neutral:{neutral}</li>
-            <li>bad:{bad}</li>
-            <li>total:{total}</li>
-            <li>positivePercentag:{positivePercentag}%</li>
+            <li>Good:{good}</li>
+            <li>Neutral:{neutral}</li>
+            <li>Bad:{bad}</li>
+            <li>Total:{total}</li>
+            <li>Positive feedback:{positivePercentag}%</li>
         </ul>
        
     )
